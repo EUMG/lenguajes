@@ -1,0 +1,19 @@
+<div class="d-flex align-items-center">
+    <img class="w-50 p-3" src="../../../assets/abecedario/designs/abe.jpg" alt="">
+    <h1>Aplicacion en Angular para traduccion de textos con lenguaje creado por mi novia :3</h1>
+    <img class="w-25 p-5" src="../../../assets/abecedario/designs/pollikun.png" alt="">
+</div>
+<div class="d-flex align-items-center flex-column">
+    <div class="p-2">
+        <p>Teclee texto:</p>
+    </div>
+    <div class="p-2">
+        <input type="text" #inputText (keyup.enter)="traducir(inputText.value)">
+        <button class="btn btn-primary" id="traducir" (click)="traducir(inputText.value)">Traducir</button>
+    </div>
+    <div class="p-2">
+        <p>Texto traducido: </p>
+    </div>
+    <div class="images p-2">
+    </div>
+</div>
