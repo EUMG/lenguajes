@@ -1,0 +1,17 @@
+Fuentes de letra:
+https://blogthinkbig.com/herramientas-online-para-disenar-tus-propias-fuentes-de-letra
+https://www.glyphrstudio.com/online/
+
+Descargar fuentes de letra:
+https://www.dafont.com/es/handwind.font
+
+Archivo ttf para fuentes de letra:
+https://es.wikipedia.org/wiki/TrueType
+
+tesseract en angular:
+https://github.com/ibuioli/ngTesseractOCR
+https://stackblitz.com/edit/angular-tesseract-ocr-reader?file=src%2Fapp%2Fapp.component.ts
+https://es.wikipedia.org/wiki/Tesseract_OCR
+
+OCR in angular:
+https://heartbeat.comet.ml/ocr-for-images-on-browsers-using-angular-282728159f6
