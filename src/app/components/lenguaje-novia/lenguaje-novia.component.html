@@ -10,10 +10,17 @@
     <div class="p-2">
         <input type="text" #inputText (keyup.enter)="traducir(inputText.value)">
         <button class="btn btn-primary" id="traducir" (click)="traducir(inputText.value)">Traducir</button>
+        <input type="file" (change)="importar($event)"  accept="image/*">
     </div>
     <div class="p-2">
         <p>Texto traducido: </p>
     </div>
     <div class="images p-2">
+    </div>
+    <div class="inversa">
+
+    </div>
+    <div class="traducir">
+
     </div>
 </div>
